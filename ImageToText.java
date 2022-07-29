@@ -13,7 +13,7 @@ public class ImageToText implements TextGraphicsConverter {
     private int maxWidth;
     private int maxHeight;
     private double maxRatio;
-
+// yyfjhvjkfjykulgft
     @Override
     public String convert(String url) throws IOException, BadImageSizeException {
         BufferedImage img = ImageIO.read(new URL(url));
